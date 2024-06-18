@@ -1,84 +1,237 @@
-a{
-    text-decoration: none !important;
+a {
+  text-decoration: none !important;
 }
 
 
 
-.icon-nav{
-    position: relative;
-    top: 6px;
-    right: 8px;
+.icon-nav {
+  position: relative;
+  top: 6px;
+  right: 8px;
 }
-.enjoy{
-    font-family: "Amatic SC", sans-serif;
+
+.enjoy {
+  font-family: "Amatic SC", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 70px
- }
+}
 
- .section-title h1 {
-    font-family: "Amatic SC", sans-serif;
+.section-title h1 {
+  font-family: "Amatic SC", sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 70px
- }
+  font-size: 50px
+}
 
- .section-title h6 {
-    color: gray;
-    margin-top: 50px;
- }
+.section-title h6 {
+  color: gray;
+  margin-top: 50px;
+}
 
- .first-img{
-   width: 800px;
-   height: 700px;
- }
+.first-img {
+  width: 800px;
+  height: 700px;
+}
 
- .about ul li{
-    list-style: none;
- }
+.about ul li {
+  list-style: none;
+}
 
- .about-box{
-    background-color: white;
-    position: relative;
-    top: -180px;
-    width: 70%;
-    
-    margin: auto;
-    
-    text-align: center;
- }
-
- .learn li i{
-   line-height: 30px;
- }
-
- .txt-about{
-   margin-top: 20px;
- }
-
- .about-text {
-   font-size: 17px;
- }
-
- .about-2{
-   width: 500px;
-   height: 345px;
- }
-
- .about-btn{
-   display: inline-block;
-   background: rgba(255, 255, 255, 0.3);
-   padding: 6px 30px 8px 30px;
-   color: #fff;
-   border-radius: 50px;
-   transition: all ease-in-out 0.4s;
-   margin-left: 100px;
- }
-
- .card-one {
+.about-box {
   background-color: white;
- }
+  position: relative;
+  top: -180px;
+  width: 70%;
 
- .icon-1{
+  margin: auto;
+
+  text-align: center;
+}
+
+.learn li i {
+  line-height: 30px;
+}
+
+.txt-about {
+  margin-top: 20px;
+}
+
+.about-text {
+  font-size: 17px;
+}
+
+.about-2 {
+  width: 500px;
+  height: 345px;
+}
+
+.about-btn {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 6px 30px 8px 30px;
+  color: #fff;
+  border-radius: 50px;
+  transition: all ease-in-out 0.4s;
+  margin-left: 100px;
+}
+
+.card-one {
+  background-color: white;
+}
+
+.icon-1 {
   background: rgba(206, 18, 18, 0.1);
- }
+}
+
+/* ******************************************client********************** */
+
+
+.client {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(assets/img/stats-bg.jpg) center center;
+  background-size: cover;
+  padding: 100px;
+  margin-top: 60px;
+}
+
+.clients-1 span {
+  font-size: 50px;
+}
+
+
+
+/* *****************************DINNER****************** */
+.main {
+  margin-left: 30px;
+
+}
+
+/* **********************saying about us******************** */
+
+.saying-about {
+  background-color: #eee;
+  margin-top: 50px;
+}
+
+/* =*************************events************* */
+.card-img {
+  height: 600px;
+  background-image: linear-gradient(rgba(0 0 0 0.6)), url(assets/img/events-1.jpg);
+}
+
+.text-event {
+  position: absolute;
+  margin-top: 430px;
+
+}
+
+.number {
+  text-decoration: underline;
+  color: red;
+}
+
+
+/*************************** chefs ****************************************/
+
+
+
+.icons-all {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  right: 20px;
+  top: 20px;
+  padding: 15px;
+  gap: 10px;
+  background-color: rgb(238, 235, 235);
+  opacity: 0;
+}
+
+.icons-all:hover{
+
+  opacity: 1;
+}
+
+
+.card-pera:hover{
+  transform: scale(1.1);
+  transition: 0.5S;
+}
+
+.chef-section {
+background-color: #eee; 
+}
+
+/* **********************book your*****0 */
+.main-book{
+  background-color: #eee;
+}
+
+.message{
+  height: 200px;
+  width: 680px; 
+}
+
+.reservation{
+  background-size: cover;
+  
+}
+.res-img{
+  height: 600px;
+}
+
+.gallery{
+  background-color: #eee;
+}
+
+/* ************************************contact us********************** */
+
+.contact{
+  width: 700px;
+}
+
+.map-icon{
+  height: 100px;
+  width: 100px;
+
+}
+.map-icon i{
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 150px;
+  font-size: 30px;
+  line-height: 0;
+  color: #fff;
+  background-color: red;
+  border-radius: 100%;
+  margin-right: 15px;
+  
+}
+
+
+.name{
+  width: 612px;
+}
+
+.sub-text{
+  width: 1245px;
+}
+
+.mess-text{
+  width: 1245px;
+  height: 150px;
+}
+
+/* ********************************footer************************ */
+
+.footer-main{
+  background-color: #1f1f24;
+  
+}
+
+.ft-color{
+  background-color: #1f1f24;
+  color: white;
+}
+
